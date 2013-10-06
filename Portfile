@@ -52,8 +52,6 @@ livecheck.url	${master_sites}
 livecheck.regex	${name}-(0.9.8\[a-z\])
 
 post-patch {
-	# Ensure that the correct compiler is used
-	reinplace "s|cc:|${configure.cc}:|" ${worksrcpath}/Configure
 	# use SDK if necessary
 	if {${configure.sdkroot} != ""} {
 		reinplace "s|\\(-arch \[_a-zA-Z0-9\]*\\)|\\1 -isysroot ${configure.sdkroot}|" ${worksrcpath}/Configure
