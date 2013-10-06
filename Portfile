@@ -3,7 +3,7 @@
 PortSystem 1.0
 PortGroup  muniversal 1.0
 
-name			openssl
+name			openssl098
 version			0.9.8y
 epoch			1
 platforms		darwin freebsd
@@ -21,6 +21,7 @@ long_description \
 	cryptography library.
 
 master_sites	http://www.openssl.org/source/
+distname            openssl-${version}
 checksums           md5     47c7fb37f78c970f1d30aa2f9e9e26d8 \
                     sha1    32ec994d626555774548c82e48c5d220bec903c4 \
                     rmd160  a44d14e32c73ee9451089d06d18d04d8f83660bc
