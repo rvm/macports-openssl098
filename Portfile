@@ -4,7 +4,7 @@ PortSystem 1.0
 PortGroup  muniversal 1.0
 
 name			openssl
-version			0.9.8o
+version			0.9.8y
 epoch			1
 platforms		darwin freebsd
 categories		devel security
@@ -21,9 +21,9 @@ long_description \
 	cryptography library.
 
 master_sites	http://www.openssl.org/source/
-checksums           md5     63ddc5116488985e820075e65fbe6aa4 \
-                    sha1    80c73afc7dca790cd26936cb392a4dfd14d4e4d7 \
-                    rmd160  c2e455a17bce59c8a54522ffaa26c3a5cb26b510
+checksums           md5     47c7fb37f78c970f1d30aa2f9e9e26d8 \
+                    sha1    32ec994d626555774548c82e48c5d220bec903c4 \
+                    rmd160  a44d14e32c73ee9451089d06d18d04d8f83660bc
 
 depends_lib		port:zlib
 
